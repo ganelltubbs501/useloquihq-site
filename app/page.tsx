@@ -1,3 +1,4 @@
+import Link from "next/link";
 import WaitlistForm from "./WaitlistForm";
 
 const LISTEN = [
@@ -20,9 +21,9 @@ export default function Home() {
     <>
       <header className="topbar">
         <div className="wrap">
-          <a className="logo" href="/" aria-label="LoquiHQ home">
+          <Link className="logo" href="/" aria-label="LoquiHQ home">
             Loqui<span>HQ</span>
-          </a>
+          </Link>
           <span className="dymo dymo--pink">Founding beta</span>
         </div>
       </header>
