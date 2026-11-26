@@ -219,9 +219,11 @@ export default function WaitlistForm() {
         </div>
       </div>
 
+      {/* Bot trap. Its label and id must not look like a real field (name, company, address...),
+          or browsers autofill it and real people get dropped as bots. */}
       <div className="trap" aria-hidden="true">
-        <label htmlFor="f-company">Company</label>
-        <input id="f-company" type="text" tabIndex={-1} autoComplete="off" value={values.company} onChange={set("company")} />
+        <label htmlFor="f-lq-hp">Leave this empty</label>
+        <input id="f-lq-hp" name="lq_hp" type="text" tabIndex={-1} autoComplete="one-time-code" data-lpignore="true" data-1p-ignore="true" value={values.company} onChange={set("company")} />
       </div>
 
       <label className="consent" htmlFor="f-consent">
