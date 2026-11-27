@@ -1,0 +1,26 @@
+# LoquiHQ founding beta
+
+> LoquiHQ is an AI platform for podcasters. It transcribes each episode, finds and cuts the moments worth clipping, writes the social posts, and sends the finished audio to your host. Signups for the founding beta are at https://www.useloquihq.com.
+
+## Who it is for
+
+Podcasters who want one recording turned into a transcript, clips, social posts and a published episode without doing each step by hand.
+
+## How the founding beta works
+
+- Join the list at https://www.useloquihq.com. It takes a minute, with no password or card.
+- Founding shows are reviewed in cohorts of 20 to 30, in the order people joined.
+- Invitations go out by email when a cohort opens. No opening date has been announced.
+
+## Links
+
+- [Founding beta signup](https://www.useloquihq.com): join the list
+- [LoquiHQ](https://www.loquihq.com): product site, pricing and FAQ
+- [Learn podcasting](https://www.loquihq.com/learn): free lessons and guides
+- [Blog](https://www.loquihq.com/blog): quick answers for podcasters
+- [Privacy Policy](https://www.loquihq.com/privacy)
+- [Terms of Service](https://www.loquihq.com/terms)
+
+## Contact
+
+ganell@loquihq.com
