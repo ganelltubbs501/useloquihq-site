@@ -6,15 +6,28 @@ const LISTEN = [
   { label: "YouTube", href: "https://www.youtube.com/@RebuildinginPublic" },
 ];
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "LoquiHQ",
-  url: "https://www.useloquihq.com",
-  logo: "https://www.useloquihq.com/apple-touch-icon.png",
-  founder: { "@type": "Person", name: "Ganell Tubbs" },
-  sameAs: ["https://www.loquihq.com"],
-};
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "LoquiHQ",
+    url: "https://www.useloquihq.com",
+    logo: "https://www.useloquihq.com/apple-touch-icon.png",
+    founder: { "@type": "Person", name: "Ganell Tubbs" },
+    sameAs: ["https://www.loquihq.com"],
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "LoquiHQ",
+    applicationCategory: "MultimediaApplication",
+    operatingSystem: "Web",
+    url: "https://www.loquihq.com",
+    description:
+      "An AI platform for podcasters that transcribes each episode, finds and cuts the moments worth clipping, writes the social posts, and sends the finished audio to your host.",
+    publisher: { "@type": "Organization", name: "LoquiHQ", url: "https://www.useloquihq.com" },
+  },
+];
 
 export default function Home() {
   return (
